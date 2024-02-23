@@ -1,0 +1,10 @@
+{
+    "request": {
+      "method": "GET",
+      "urlPathTemplate": "/balances/v2/{residentEmail}"
+    },
+    "response": {
+      "status": 200,
+      "body": "{\"electricityBalance\":80.0,\"waterBalance\":20.0,\"trashBalance\":5.0,\"periodStart\":\"2024-01-01T00:00:00\",\"periodEnd\":\"2024-01-01T00:00:00\",\"totalPastDueBalance\":0.0}"
+    }
+  }

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResidentApi", "ResidentApi\ResidentApi.csproj", "{6BDB8DAD-9C22-4520-8037-9C6AA13DBBB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResidentApi.BusinessLogic", "ResidentApi.BusinessLogic\ResidentApi.BusinessLogic.csproj", "{DDC656FC-C33F-42CC-BB6D-D43A64CAF849}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PerfShared", "PerfShared\PerfShared.shproj", "{CB3A6C8E-B19F-4557-B0B6-C2197824A71C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BDB8DAD-9C22-4520-8037-9C6AA13DBBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDB8DAD-9C22-4520-8037-9C6AA13DBBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDB8DAD-9C22-4520-8037-9C6AA13DBBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDB8DAD-9C22-4520-8037-9C6AA13DBBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC656FC-C33F-42CC-BB6D-D43A64CAF849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC656FC-C33F-42CC-BB6D-D43A64CAF849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC656FC-C33F-42CC-BB6D-D43A64CAF849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC656FC-C33F-42CC-BB6D-D43A64CAF849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29F1F20C-03BB-4D05-8B50-BCF42079337D}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PerfShared\PerfShared.projitems*{cb3a6c8e-b19f-4557-b0b6-c2197824a71c}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
